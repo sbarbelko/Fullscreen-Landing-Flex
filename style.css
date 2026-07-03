@@ -62,11 +62,39 @@ main {
 }
 
 .sectionSecondMain {
-    background-color: var(--brightColor);
-    padding: 20px;
+  background-color: var(--brightColor);
+  padding: 20px;
 }
 
 .pMainSecond {
-    color: var(--darkColor);
-    font-size: 1rem;
+  color: var(--darkColor);
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  text-align: left;
+}
+
+.sectionFooterFirst,
+.sectionFooterThird {
+  background-color: var(--darkColor);
+  padding: 20px;
+}
+
+.sectionFooterSecond {
+  background-color: var(--brightColor);
+  padding: 20px;
+}
+.pFooterFirst,
+.pFooterThird {
+  color: var(--brightColor);
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.pFooterSecond {
+  color: var(--darkColor);
+  font-size: 1rem;
+  line-height: 1.7rem;
 }
