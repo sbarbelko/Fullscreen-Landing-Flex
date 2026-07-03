@@ -62,7 +62,7 @@ main {
 }
 
 .sectionSecondMain {
-  background-color: var(--brightColor);
+  background-color: rgb(244, 244, 244);
   padding: 20px;
 }
 
