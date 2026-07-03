@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+    --darkColor: #926239;
+    --brightColor: #fff;
+}
+
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: var(--darkColor);
+  background-image: url(assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+    font-size: 3.125rem;
+    line-height: 60px;
+}
+
+.pHeader {
+    font-size: 1.25rem;
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    margin: 20px 0 0;
+    border: 1px solid rgb(146, 98, 57);
+    border-radius: 10%;
+}
