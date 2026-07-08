@@ -76,16 +76,16 @@ footer {
   text-align: left;
 }
 
-.sectionFooterFirst,
-.sectionFooterThird {
+.footerDark {
   background-color: var(--darkColor);
   padding: 20px;
 }
 
-.sectionFooterSecond {
+.footerBright {
   background-color: var(--brightColor);
   padding: 20px;
 }
+
 .pFooterFirst,
 .pFooterThird {
   color: var(--brightColor);
