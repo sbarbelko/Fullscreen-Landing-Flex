@@ -79,11 +79,13 @@ footer {
 .footerDark {
   background-color: var(--darkColor);
   padding: 20px;
+  flex: 1;
 }
 
 .footerBright {
   background-color: var(--brightColor);
   padding: 20px;
+  flex: 1;
 }
 
 .pFooterFirst,
