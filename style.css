@@ -9,7 +9,7 @@ html {
   font-size: 16px;
 }
 
-header {
+.header {
   min-height: 100vh;
   background-color: bisque;
   display: flex;
@@ -34,14 +34,14 @@ h1 {
   line-height: 1.2;
 }
 
-a {
+.readMore {
   text-decoration: none;
   color: inherit;
   font-size: 1.125rem;
   padding: 10px 20px;
   margin: 20px 0 0;
   border: 1px solid rgb(146, 98, 57);
-  border-radius: 10%;
+  border-radius: 15 px;
 }
 
 main {
